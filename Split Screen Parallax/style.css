@@ -1,0 +1,70 @@
+body{
+    font-family: 'Sarabun', sans-serif;
+}
+
+header{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background:linear-gradient(to bottom,rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/1710792/pexels-photo-1710792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h750&w=1260');
+background-color: cover;
+color: white
+
+}
+
+.about{
+    height: 300vh;
+    display: flex;
+}
+
+.about-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 30px;
+    margin: 0!important;
+}
+
+.about-pages{
+    width: 50%;
+}
+
+.about-pages div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.about-pages div> p{
+    width: 80%;
+    font-size: 18px;
+    line-height:30px;
+}
+
+.about-pages div:nth-child(1){
+background-color:#195190FF;
+}
+
+
+.about-pages div:nth-child(2) {
+    background-color:#A2A2A1FF;
+}
+
+
+.about-pages div:nth-child(3) {
+    background-color:#195190FF;
+}
+
+footer{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #A2A2A1FF;
+}
